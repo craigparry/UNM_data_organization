@@ -1,0 +1,11 @@
+Empty List: 
+Sorted List: 1, 3
+Sorted List: 1, 3, 5, 6
+Reverse Sorted: 6, 5, 3, 1
+Reverse again: 1, 3, 5, 6
+Stack: 3, 5
+Empty Stack: 
+New Stack: 10, 2, 8, 7, 3, 5
+List Length: 6
+Reversed stack: 3, 7, 8, 2, 10
+Reverse again: 10, 2, 8, 7, 3, 27

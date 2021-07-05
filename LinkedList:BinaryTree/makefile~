@@ -1,0 +1,8 @@
+treetest: studenttreetest.c  binarytree.o
+	gcc -o treetest studenttreetest.c linkedlist.o binarytree.o
+linkedlist.o: linkedlist.c linkedlist.h
+	gcc -Wall -o linkedlist.o -c linkedlist.c
+binarytree.o: linkedlist.o binarytree.c binarytree.h
+	gcc -Wall -o binarytree.o -c binarytree.c
+listtest: linkedlist.o studentlisttest.c
+	gcc -Wall -o listtest studentlisttest.c linkedlist.o
